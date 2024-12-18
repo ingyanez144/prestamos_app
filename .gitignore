@@ -1,0 +1,44 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de construcción
+build/
+dist/
+
+# Archivos relacionados con configuración de paquetes
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de bloqueo de dependencias
+package-lock.json
+yarn.lock
+
+# Directorios de caché y artefactos
+.cache/
+.next/
+out/
+public/
+
+# Archivos específicos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos temporales del sistema
+*.log
+*.swp
+*.tmp
+
+# Archivos relacionados con tests
+coverage/
